@@ -1,0 +1,5 @@
+^^Iemployees = []
+^^Ifor id in employee_ids:
+^^I    employee = fetch_employee(id)
+^^Iif employee:
+^^I    employees.append(employee)
